@@ -6,6 +6,7 @@ function preload()
 {
   nickle = loadAnimation ("assets/nickle_01.png", "assets/nickle_12.png");
   marny = loadAnimation ("assets/marny_01.png", "assets/marny_04.png");
+  finish = loadImage ("assets/finish.png");
   song = loadSound ("assets/mambo.mp3");
 }
 
@@ -21,6 +22,8 @@ function setup()
 function draw()
 {
   background(222, 236, 227);
+
+  image(finish, 800, 0);
 
   katamari1.display();
   katamari1.move();
