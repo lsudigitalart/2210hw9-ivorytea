@@ -57,9 +57,9 @@ function Katamari(tempWingspan)
 
   this.interact = function()
   {
-    if(mouseX > this.xPosition)
+    if(mouseX < 10)
     {
-      ey = 0;
+      ex = 0;
     }
   }
 }
