@@ -4,8 +4,8 @@ var song;
 
 function preload()
 {
-  nickle = loadAnimation ("assets/nickle_01.png", "assets/nickle_12.png");
-  marny = loadAnimation ("assets/marny_01.png", "assets/marny_04.png");
+  nickle = loadAnimation ("assets/Nickle_01.png", "assets/Nickle_12.png");
+  marny = loadAnimation ("assets/Marny_01.png", "assets/Marny_04.png");
   finish = loadImage ("assets/finish.png");
   song = loadSound ("assets/mambo.mp3");
 }
